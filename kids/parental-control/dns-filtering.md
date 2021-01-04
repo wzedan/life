@@ -1,4 +1,19 @@
+
 # DNS filtering with Raspberry PI and NXFilter
+
+<!-- TOC -->
+
+- [DNS filtering with Raspberry PI and NXFilter](#dns-filtering-with-raspberry-pi-and-nxfilter)
+    - [Introduction](#introduction)
+    - [Hardware Needed](#hardware-needed)
+    - [Deployment Setup](#deployment-setup)
+    - [Installation Setup](#installation-setup)
+    - [Improvements](#improvements)
+    - [References](#references)
+
+<!-- /TOC -->
+
+## Introduction 
 
 This article is to highlight a simple and yet efficent way to block undisired content from central place with low cost and no subscription based solutions.
 
@@ -24,6 +39,10 @@ This article is to highlight a simple and yet efficent way to block undisired co
 9. Find out the IP addresses for the primary and secondary and make an IP reserveration for these two devices in our router LAN settings _depends on router settings_
 10. Go to router DNS settings _depends on router settings_ , Add the primary and secondary _*optional_ raspberry IP addresses retrieved in 9 into the DNS settings. Most routers will have also DHCP settings which need to be changed as well. Changing the router DNS settings will ensure that the router itself uses your RB PI to resolve any DNS name.
 11. You need to enable authentication in Nxfilter to enable the default policy as highlighted here [Enable NxFilter authentication](https://hada-tech.com/index.php/2019/01/05/parental-control-with-dns-filtering-on-raspberry-pi/)
+
+## Improvements
+
+1. Create Cluster of NxFilters. 
 
 ## References
 
