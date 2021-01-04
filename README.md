@@ -1,4 +1,4 @@
-# life
+# Life
 Articles about anything but computer science
 
 ## Articles
