@@ -34,4 +34,4 @@ Usage: ./ss-generator.rb [options] <input_folder> output.mp4
 
 1. Almost all code was copied from https://github.com/remko/kburns 
 2. https://trac.ffmpeg.org/wiki/Slideshow
-3. 
+3. https://linuxhint.com/ffmpeg_images_to_video_tutorial/
