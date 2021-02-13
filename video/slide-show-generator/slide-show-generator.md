@@ -1,5 +1,8 @@
 # Don't use online videos generator - SCAM , Slow and useless !!!
 
+## Prerequistes
+1. (sudo) gem install fastimage -v 1.8.1
+
 ## Usage
 
 1. Add your images in alphabetical order (_note 2 is alphabetically before 11_) in one folder
@@ -29,4 +32,6 @@ Usage: ./ss-generator.rb [options] <input_folder> output.mp4
 ```
 ## References
 
-Almost all code was copied from https://github.com/remko/kburns 
+1. Almost all code was copied from https://github.com/remko/kburns 
+2. https://trac.ffmpeg.org/wiki/Slideshow
+3. 
